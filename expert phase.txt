@@ -1,0 +1,14 @@
+    public boolean isExpertPhase() {
+        return ApplicationStatus.EXPERT_SELECTED == this.application.getApplStatus()
+                && null != this.businessProcess.getExpertId()
+                && this.loggedUser.getId() == this.businessProcess.getExpertId()
+                && JobTitleType.EXPERT == this.loggedUser.getJobType() && this.isAuth();
+    }	
+
+fitkbtu2020@gmail.com
+b.bazarbaeva@kbtu.kz
+
+250 310 180*200
+170*100 - кухня->дверь 
+260*100 - зал->дверь
+150-80 - спалльня

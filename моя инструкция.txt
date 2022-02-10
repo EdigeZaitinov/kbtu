@@ -1,0 +1,131 @@
+прокторинг - 18BD110617 пароль - Ut6p8AYk
+
+Если не клонируется проект то - It turned out that I had old session 
+state: Open Control Panel from the Start menu Select User Accounts Select
+“Manage your credentials” in the left hand menu Delete any credentials 
+related to Git or GitHub Once I did this, it started working again.
+
+RESOD_SERVER все время нужжно mvn clean install все команды в файле build.tx
+
+ 
+							  <= Resod portal =>
+	app:
+		pages:
+			auth:
+				login.component
+				registration.component
+			
+
+		interceptors:
+		services:
+
+прямая трансляция : 	Angular-video: 
+					WebRTC - используют по дефолту WebSocket
+					https://tproger.ru/translations/what-are-web-sockets/
+			Angular-audio: 
+					WebRTC - используют по дефолту WebSocket
+
+		    	JAVA-video: 
+					sarxos - очень прост в использовании.
+
+					xuggler - использует FFMpeg.Хорошо подходит нашему проекту.По заявлениям людей сложноват
+
+					javacv - является тем же OpenCV только написанный на джаве.Имеет излишне большой функционал.
+
+					JMF - фреймворк для работы с медиа. Является старым и нежелательным.
+				
+			JAVA-audio: 
+					Java-sound-api используется многими людьми.
+
+git checkout -b hotfix - создать и перейти на новую ветку с именем hotfix
+git checkout hotdix - перейти на ветку hotfix
+git add <files>
+git commit -m <message>
+git push origin your-new-branch
+
+Git global setup
+git config --global user.name "EdigeZaitinov"
+git config --global user.email "edigezaitinov@test.kz"
+
+Create a new repository
+git clone https://git.reself.kz/resod/resod-portal.git
+cd resod-portal
+touch README.md
+git add README.md
+git commit -m "add README"
+
+Push an existing folder
+cd existing_folder
+git init
+git remote add origin https://git.reself.kz/resod/resod-portal.git
+git add .
+git commit -m "Initial commit"
+
+Push an existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://git.reself.kz/resod/resod-portal.git
+
+
+version: '3.7'
+services:
+  resod_pg:
+    image: postgres:latest
+    container_name: resod_pg
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: resod
+      POSTGRES_USER: resod
+      POSTGRES_PASSWORD: resod
+    ports:
+      - 5432:5432
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
+  
+                
+
+cd db-struct
+mvn clean install
+cd ..
+
+cd resod-management
+mvn clean install
+cd ..
+
+cd b2b-profile
+mvn clean install
+cd ..
+
+cd b2c-profile
+mvn clean install
+cd ..
+
+cd chat-service
+mvn clean install
+cd ..
+
+cd eureka
+mvn clean install
+cd ..
+
+cd gateway
+mvn clean install
+cd ..
+
+cd useful-content
+mvn clean install
+cd ..
+
+mvn clean install
+                                          
+                                                            
+Final Fantasy 7 remake, 10, 15                                                
+                                                            
+                                                            
+                                                            
+                                                            
+                                                           
+
+

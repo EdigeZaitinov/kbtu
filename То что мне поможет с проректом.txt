@@ -1,0 +1,10 @@
+Для начала можно развернуть проект на heroku 
+https://youtu.be/q7e4A9pfNrk
+
+Как развернуть на виртуальном сервере 
+https://studiowildfox.com/articles/12-Razvertyvanie_(Deploy)_veb_prilozheniya_java_na_virtualnom_servere_VPS
+
+https://youtu.be/wj7j92w2eLw
+https://youtu.be/kT_xEflmaGE
+
+100 пудово надо прочитать --- https://habr.com/ru/post/448094/

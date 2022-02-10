@@ -1,0 +1,39 @@
+
+
+version: '3.7'
+services:
+  resod_pg:
+    image: postgres:latest
+    container_name: resod_pg
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: resod
+      POSTGRES_USER: resod
+      POSTGRES_PASSWORD: resod
+    ports:
+      - 5432:5432
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
+
+https://www.callicoder.com/spring-boot-websocket-chat-example/
+
+https://github.com/marcratombotsoa/wechat
+
+                                         Автоматическое обновление при изменении таблицы
+1)При отправке сообщения обновлять таблицу employee_object_stream (перед этим нужно добавить поле changes_num 
+в эту таблицу для ведения колличества изменений связанных с этим чатом)
+
+                                         CRM по сотрудникам 
+1)Соедениить ветки CompanyAdmin в сервере и СРМ 
+
+2)Убедиться в безошибочном соединениии 
+
+3)создать таблицу Many to Many специально для объектов и сотрудников 
+
+4) Желательно переназвать таблицы которые использовались более корректно 
+
+5)Изменить СРМ для вывода объектов 
+
+6)убедиться в правильном выводе объектов 
